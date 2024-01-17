@@ -5,23 +5,23 @@
  */
 
 export const tokens = {
-  'color.base.blue.0': '#A7E2FF',
-  'color.base.blue.1': '#89C4FA',
-  'color.base.blue.2': '#6BA6DC',
-  'color.base.gray.1': '#121212',
-  'color.base.green.0': '#8AAFBA',
-  'color.base.green.1': '#6C919C',
-  'color.base.green.2': '#4E737E',
-  'color.base.purple.0': '#F0D0FF',
-  'color.base.purple.1': '#D2B2F8',
-  'color.base.purple.2': '#B494DA',
-  'color.base.red.0': '#FFA7A7',
-  'color.base.red.1': '#FA8989',
-  'color.base.red.2': '#DC6B6B',
-  'color.base.white.1': '#FFFFFF',
-  'color.base.yellow.0': '#FFF069',
-  'color.base.yellow.1': '#F4D24B',
-  'color.base.yellow.2': '#D6B42D',
+  'color.base.blue.50': '#A7E2FF',
+  'color.base.blue.100': '#89C4FA',
+  'color.base.blue.200': '#6BA6DC',
+  'color.base.gray.50': '#121212',
+  'color.base.green.50': '#8AAFBA',
+  'color.base.green.100': '#6C919C',
+  'color.base.green.200': '#4E737E',
+  'color.base.purple.50': '#F0D0FF',
+  'color.base.purple.100': '#D2B2F8',
+  'color.base.purple.200': '#B494DA',
+  'color.base.red.50': '#FFA7A7',
+  'color.base.red.100': '#FA8989',
+  'color.base.red.200': '#DC6B6B',
+  'color.base.white.50': '#FFFFFF',
+  'color.base.yellow.50': '#FFF069',
+  'color.base.yellow.100': '#F4D24B',
+  'color.base.yellow.200': '#D6B42D',
   'fontStack.mono': ['DM Mono'],
   'fontStack.sansSerifDisplay': ['Tusker Grotesk'],
   'fontStack.sansSerifPrimary': ['Neue Haas Grotesk'],
@@ -34,7 +34,7 @@ export const tokens = {
 };
 
 export const meta = {
-  'color.base.blue.0': {
+  'color.base.blue.50': {
     _original: {
       $value: '#A7E2FF',
     },
@@ -45,11 +45,11 @@ export const meta = {
       },
       $type: 'color',
     },
-    id: 'color.base.blue.0',
+    id: 'color.base.blue.50',
     $type: 'color',
     $value: '#A7E2FF',
   },
-  'color.base.blue.1': {
+  'color.base.blue.100': {
     _original: {
       $value: '#89C4FA',
     },
@@ -60,11 +60,11 @@ export const meta = {
       },
       $type: 'color',
     },
-    id: 'color.base.blue.1',
+    id: 'color.base.blue.100',
     $type: 'color',
     $value: '#89C4FA',
   },
-  'color.base.blue.2': {
+  'color.base.blue.200': {
     _original: {
       $value: '#6BA6DC',
     },
@@ -75,11 +75,11 @@ export const meta = {
       },
       $type: 'color',
     },
-    id: 'color.base.blue.2',
+    id: 'color.base.blue.200',
     $type: 'color',
     $value: '#6BA6DC',
   },
-  'color.base.gray.1': {
+  'color.base.gray.50': {
     _original: {
       $value: '#121212',
     },
@@ -90,11 +90,11 @@ export const meta = {
       },
       $type: 'color',
     },
-    id: 'color.base.gray.1',
+    id: 'color.base.gray.50',
     $type: 'color',
     $value: '#121212',
   },
-  'color.base.green.0': {
+  'color.base.green.50': {
     _original: {
       $value: '#8AAFBA',
     },
@@ -105,11 +105,11 @@ export const meta = {
       },
       $type: 'color',
     },
-    id: 'color.base.green.0',
+    id: 'color.base.green.50',
     $type: 'color',
     $value: '#8AAFBA',
   },
-  'color.base.green.1': {
+  'color.base.green.100': {
     _original: {
       $value: '#6C919C',
     },
@@ -120,11 +120,11 @@ export const meta = {
       },
       $type: 'color',
     },
-    id: 'color.base.green.1',
+    id: 'color.base.green.100',
     $type: 'color',
     $value: '#6C919C',
   },
-  'color.base.green.2': {
+  'color.base.green.200': {
     _original: {
       $value: '#4E737E',
     },
@@ -135,11 +135,11 @@ export const meta = {
       },
       $type: 'color',
     },
-    id: 'color.base.green.2',
+    id: 'color.base.green.200',
     $type: 'color',
     $value: '#4E737E',
   },
-  'color.base.purple.0': {
+  'color.base.purple.50': {
     _original: {
       $value: '#F0D0FF',
     },
@@ -150,11 +150,11 @@ export const meta = {
       },
       $type: 'color',
     },
-    id: 'color.base.purple.0',
+    id: 'color.base.purple.50',
     $type: 'color',
     $value: '#F0D0FF',
   },
-  'color.base.purple.1': {
+  'color.base.purple.100': {
     _original: {
       $value: '#D2B2F8',
     },
@@ -165,11 +165,11 @@ export const meta = {
       },
       $type: 'color',
     },
-    id: 'color.base.purple.1',
+    id: 'color.base.purple.100',
     $type: 'color',
     $value: '#D2B2F8',
   },
-  'color.base.purple.2': {
+  'color.base.purple.200': {
     _original: {
       $value: '#B494DA',
     },
@@ -180,11 +180,11 @@ export const meta = {
       },
       $type: 'color',
     },
-    id: 'color.base.purple.2',
+    id: 'color.base.purple.200',
     $type: 'color',
     $value: '#B494DA',
   },
-  'color.base.red.0': {
+  'color.base.red.50': {
     _original: {
       $value: '#FFA7A7',
     },
@@ -195,11 +195,11 @@ export const meta = {
       },
       $type: 'color',
     },
-    id: 'color.base.red.0',
+    id: 'color.base.red.50',
     $type: 'color',
     $value: '#FFA7A7',
   },
-  'color.base.red.1': {
+  'color.base.red.100': {
     _original: {
       $value: '#FA8989',
     },
@@ -210,11 +210,11 @@ export const meta = {
       },
       $type: 'color',
     },
-    id: 'color.base.red.1',
+    id: 'color.base.red.100',
     $type: 'color',
     $value: '#FA8989',
   },
-  'color.base.red.2': {
+  'color.base.red.200': {
     _original: {
       $value: '#DC6B6B',
     },
@@ -225,11 +225,11 @@ export const meta = {
       },
       $type: 'color',
     },
-    id: 'color.base.red.2',
+    id: 'color.base.red.200',
     $type: 'color',
     $value: '#DC6B6B',
   },
-  'color.base.white.1': {
+  'color.base.white.50': {
     _original: {
       $value: '#FFFFFF',
     },
@@ -240,11 +240,11 @@ export const meta = {
       },
       $type: 'color',
     },
-    id: 'color.base.white.1',
+    id: 'color.base.white.50',
     $type: 'color',
     $value: '#FFFFFF',
   },
-  'color.base.yellow.0': {
+  'color.base.yellow.50': {
     _original: {
       $value: '#FFF069',
     },
@@ -255,11 +255,11 @@ export const meta = {
       },
       $type: 'color',
     },
-    id: 'color.base.yellow.0',
+    id: 'color.base.yellow.50',
     $type: 'color',
     $value: '#FFF069',
   },
-  'color.base.yellow.1': {
+  'color.base.yellow.100': {
     _original: {
       $value: '#F4D24B',
     },
@@ -270,11 +270,11 @@ export const meta = {
       },
       $type: 'color',
     },
-    id: 'color.base.yellow.1',
+    id: 'color.base.yellow.100',
     $type: 'color',
     $value: '#F4D24B',
   },
-  'color.base.yellow.2': {
+  'color.base.yellow.200': {
     _original: {
       $value: '#D6B42D',
     },
@@ -285,7 +285,7 @@ export const meta = {
       },
       $type: 'color',
     },
-    id: 'color.base.yellow.2',
+    id: 'color.base.yellow.200',
     $type: 'color',
     $value: '#D6B42D',
   },
