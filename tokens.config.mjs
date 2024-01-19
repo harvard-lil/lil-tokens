@@ -2,13 +2,16 @@ import pluginCSS from "@cobalt-ui/plugin-css";
 import pluginJS from "@cobalt-ui/plugin-js";
 import pluginTailwind from "@cobalt-ui/plugin-tailwind";
 
-// function makeColor(colorName) {
-//   const output = {};
-//   for (const step of [50, 100, 200]) {
-//     output[step] = [colorName, step].join("."); // e.g. `color.blue.50`
-//   }
-//   return output;
-// }
+const colorTokens = Object.fromEntries(
+  ["blue", "green", "red", "yellow", "purple"].map((color) => [
+    color,
+    {
+      50: `color.base.${color}.50`,
+      100: `color.base.${color}.100`,
+      200: `color.base.${color}.200`,
+    },
+  ])
+);
 
 /** @type {import('@cobalt-ui/core').Config} */
 export default {
@@ -26,27 +29,29 @@ export default {
         theme: {
           /** @see https://tailwindcss.com/docs/configuration#theme */
           colors: {
-            blue: {
-              100: "color.base.blue.50",
-              200: "color.base.blue.100",
+            ...colorTokens,
+            white: {
+              50: "color.base.white.50",
             },
+            gray: {
+              50: "color.base.gray.50",
+            },
+          },
+          fontFamily: {
+            sansSerifPrimary: "fontStack.sansSerifPrimary",
+            sansSerifDisplay: "fontStack.sansSerifDisplay",
+            mono: "fontStack.mono",
+          },
+          spacing: {
+            1: "space.4",
+            2: "space.8",
+            3: "space.12",
+            4: "space.16",
+            5: "space.20",
+            6: "space.24",
           },
         },
       },
     }),
-    // pluginTailwind({
-    //   tailwind: {
-    //     theme: {
-    //       colors: {
-    //         blue: makeColor("color.blue"), // { 50: 'color.blue.50', 100: 'color.blue.100', … }
-    //         green: makeColor("color.green"), // { 50: 'color.green.50', 100: 'color.green.100', … }
-    //         yellow: makeColor("color.yellow"),
-    //         purple: makeColor("color.purple"),
-    //         gray: makeColor("color.gray"),
-    //         red: makeColor("color.red"),
-    //       },
-    //     },
-    //   },
-    // }),
   ],
 };

@@ -31,12 +31,12 @@ export declare const tokens: {
   'fontStack.mono': ParsedFontFamilyToken['$value'];
   'fontStack.sansSerifDisplay': ParsedFontFamilyToken['$value'];
   'fontStack.sansSerifPrimary': ParsedFontFamilyToken['$value'];
-  'space.large': ParsedDimensionToken['$value'];
-  'space.medium': ParsedDimensionToken['$value'];
-  'space.small': ParsedDimensionToken['$value'];
-  'space.xlarge': ParsedDimensionToken['$value'];
-  'space.xsmall': ParsedDimensionToken['$value'];
-  'space.xxsmall': ParsedDimensionToken['$value'];
+  'space.4': ParsedDimensionToken['$value'];
+  'space.8': ParsedDimensionToken['$value'];
+  'space.12': ParsedDimensionToken['$value'];
+  'space.16': ParsedDimensionToken['$value'];
+  'space.20': ParsedDimensionToken['$value'];
+  'space.24': ParsedDimensionToken['$value'];
 };
 
 export declare const meta: {
@@ -60,12 +60,12 @@ export declare const meta: {
   'fontStack.mono': ParsedFontFamilyToken;
   'fontStack.sansSerifDisplay': ParsedFontFamilyToken;
   'fontStack.sansSerifPrimary': ParsedFontFamilyToken;
-  'space.large': ParsedDimensionToken;
-  'space.medium': ParsedDimensionToken;
-  'space.small': ParsedDimensionToken;
-  'space.xlarge': ParsedDimensionToken;
-  'space.xsmall': ParsedDimensionToken;
-  'space.xxsmall': ParsedDimensionToken;
+  'space.4': ParsedDimensionToken;
+  'space.8': ParsedDimensionToken;
+  'space.12': ParsedDimensionToken;
+  'space.16': ParsedDimensionToken;
+  'space.20': ParsedDimensionToken;
+  'space.24': ParsedDimensionToken;
 };
 
 export declare const modes: Record<string, never>;

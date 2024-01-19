@@ -25,12 +25,12 @@
   --fontStack-mono: "DM Mono";
   --fontStack-sansSerifDisplay: "Tusker Grotesk";
   --fontStack-sansSerifPrimary: "Neue Haas Grotesk";
-  --space-large: 12px;
-  --space-medium: 8px;
-  --space-small: 6px;
-  --space-xlarge: 16px;
-  --space-xsmall: 4px;
-  --space-xxsmall: 2px;
+  --space-4: 2px;
+  --space-8: 4px;
+  --space-12: 6px;
+  --space-16: 8px;
+  --space-20: 12px;
+  --space-24: 16px;
 }
 
 @supports (color: color(display-p3 1 1 1)) {

@@ -25,12 +25,12 @@ export const tokens = {
   'fontStack.mono': ['DM Mono'],
   'fontStack.sansSerifDisplay': ['Tusker Grotesk'],
   'fontStack.sansSerifPrimary': ['Neue Haas Grotesk'],
-  'space.large': '12px',
-  'space.medium': '8px',
-  'space.small': '6px',
-  'space.xlarge': '16px',
-  'space.xsmall': '4px',
-  'space.xxsmall': '2px',
+  'space.4': '2px',
+  'space.8': '4px',
+  'space.12': '6px',
+  'space.16': '8px',
+  'space.20': '12px',
+  'space.24': '16px',
 };
 
 export const meta = {
@@ -334,82 +334,7 @@ export const meta = {
     $type: 'fontFamily',
     $value: ['Neue Haas Grotesk'],
   },
-  'space.large': {
-    _original: {
-      $value: '12px',
-    },
-    _group: {
-      id: 'space',
-      $extensions: {
-        requiredModes: [],
-      },
-      $type: 'dimension',
-    },
-    id: 'space.large',
-    $type: 'dimension',
-    $value: '12px',
-  },
-  'space.medium': {
-    _original: {
-      $value: '8px',
-    },
-    _group: {
-      id: 'space',
-      $extensions: {
-        requiredModes: [],
-      },
-      $type: 'dimension',
-    },
-    id: 'space.medium',
-    $type: 'dimension',
-    $value: '8px',
-  },
-  'space.small': {
-    _original: {
-      $value: '6px',
-    },
-    _group: {
-      id: 'space',
-      $extensions: {
-        requiredModes: [],
-      },
-      $type: 'dimension',
-    },
-    id: 'space.small',
-    $type: 'dimension',
-    $value: '6px',
-  },
-  'space.xlarge': {
-    _original: {
-      $value: '16px',
-    },
-    _group: {
-      id: 'space',
-      $extensions: {
-        requiredModes: [],
-      },
-      $type: 'dimension',
-    },
-    id: 'space.xlarge',
-    $type: 'dimension',
-    $value: '16px',
-  },
-  'space.xsmall': {
-    _original: {
-      $value: '4px',
-    },
-    _group: {
-      id: 'space',
-      $extensions: {
-        requiredModes: [],
-      },
-      $type: 'dimension',
-    },
-    id: 'space.xsmall',
-    $type: 'dimension',
-    $value: '4px',
-  },
-  'space.xxsmall': {
+  'space.4': {
     _original: {
       $value: '2px',
     },
@@ -420,9 +345,84 @@ export const meta = {
       },
       $type: 'dimension',
     },
-    id: 'space.xxsmall',
+    id: 'space.4',
     $type: 'dimension',
     $value: '2px',
+  },
+  'space.8': {
+    _original: {
+      $value: '4px',
+    },
+    _group: {
+      id: 'space',
+      $extensions: {
+        requiredModes: [],
+      },
+      $type: 'dimension',
+    },
+    id: 'space.8',
+    $type: 'dimension',
+    $value: '4px',
+  },
+  'space.12': {
+    _original: {
+      $value: '6px',
+    },
+    _group: {
+      id: 'space',
+      $extensions: {
+        requiredModes: [],
+      },
+      $type: 'dimension',
+    },
+    id: 'space.12',
+    $type: 'dimension',
+    $value: '6px',
+  },
+  'space.16': {
+    _original: {
+      $value: '8px',
+    },
+    _group: {
+      id: 'space',
+      $extensions: {
+        requiredModes: [],
+      },
+      $type: 'dimension',
+    },
+    id: 'space.16',
+    $type: 'dimension',
+    $value: '8px',
+  },
+  'space.20': {
+    _original: {
+      $value: '12px',
+    },
+    _group: {
+      id: 'space',
+      $extensions: {
+        requiredModes: [],
+      },
+      $type: 'dimension',
+    },
+    id: 'space.20',
+    $type: 'dimension',
+    $value: '12px',
+  },
+  'space.24': {
+    _original: {
+      $value: '16px',
+    },
+    _group: {
+      id: 'space',
+      $extensions: {
+        requiredModes: [],
+      },
+      $type: 'dimension',
+    },
+    id: 'space.24',
+    $type: 'dimension',
+    $value: '16px',
   },
 };
 

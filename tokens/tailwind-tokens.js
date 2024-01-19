@@ -7,8 +7,48 @@
 export default {
   colors: {
     blue: {
-      '100': "#A7E2FF",
-      '200': "#89C4FA",
+      '50': "#A7E2FF",
+      '100': "#89C4FA",
+      '200': "#6BA6DC",
     },
+    green: {
+      '50': "#8AAFBA",
+      '100': "#6C919C",
+      '200': "#4E737E",
+    },
+    red: {
+      '50': "#FFA7A7",
+      '100': "#FA8989",
+      '200': "#DC6B6B",
+    },
+    yellow: {
+      '50': "#FFF069",
+      '100': "#F4D24B",
+      '200': "#D6B42D",
+    },
+    purple: {
+      '50': "#F0D0FF",
+      '100': "#D2B2F8",
+      '200': "#B494DA",
+    },
+    white: {
+      '50': "#FFFFFF",
+    },
+    gray: {
+      '50': "#121212",
+    },
+  },
+  fontFamily: {
+    sansSerifPrimary: ["Neue Haas Grotesk"],
+    sansSerifDisplay: ["Tusker Grotesk"],
+    mono: ["DM Mono"],
+  },
+  spacing: {
+    '1': "2px",
+    '2': "4px",
+    '3': "6px",
+    '4': "8px",
+    '5': "12px",
+    '6': "16px",
   },
 };
