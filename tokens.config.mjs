@@ -18,7 +18,11 @@ export default {
   tokens: "./tokens.json",
   outDir: "./tokens/",
   plugins: [
-    pluginCSS(/* options */),
+    pluginCSS({
+      utility: {
+        bg: ["color.base.*"],
+      },
+    }),
     pluginJS(/* options */),
     pluginTailwind({
       /** (optional) the path to the Tailwind preset */
