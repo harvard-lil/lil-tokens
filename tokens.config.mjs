@@ -38,8 +38,6 @@ export default {
             },
           },
           fontFamily: {
-            sansSerifPrimary: "fontStack.sansSerifPrimary",
-            sansSerifDisplay: "fontStack.sansSerifDisplay",
             mono: "fontStack.mono",
           },
           spacing: {
@@ -49,6 +47,12 @@ export default {
             4: "space.16",
             5: "space.20",
             6: "space.24",
+          },
+          extend: {
+            fontFamily: {
+              sansSerifPrimary: "fontStack.sansSerifPrimary",
+              sansSerifDisplay: "fontStack.sansSerifDisplay",
+            },
           },
         },
       },
